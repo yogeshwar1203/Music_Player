@@ -1,1 +1,1 @@
-# A Jetpack Compose Android app with download music functionality 
+# A Jetpack Compose Android music player app with download music functionality 
