@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.task_audioplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+14-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:8:5-82
+14-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:8:22-79
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:11:5-77
+17-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+18-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:12:5-92
+18-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:12:22-89
+19
+20    <permission
+20-->[androidx.core:core:1.13.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\616f1af72221cf888bf324640ced3bd2\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.task_audioplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\616f1af72221cf888bf324640ced3bd2\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\616f1af72221cf888bf324640ced3bd2\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.task_audioplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\616f1af72221cf888bf324640ced3bd2\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\616f1af72221cf888bf324640ced3bd2\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:14:5-45:19
+27        android:name="com.example.task_audioplayer.BaseApplication"
+27-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:15:9-40
+28        android:allowBackup="true"
+28-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\616f1af72221cf888bf324640ced3bd2\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:17:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:18:9-54
+34        android:icon="@drawable/music"
+34-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:19:9-39
+35        android:label="@string/app_name"
+35-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:20:9-41
+36        android:roundIcon="@drawable/music"
+36-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:21:9-44
+37        android:supportsRtl="true"
+37-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:22:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.Task_AudioPlayer" >
+39-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:23:9-54
+40        <activity
+40-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:25:9-27:40
+41            android:name="com.example.task_audioplayer.ui.screens.CurrentSong"
+41-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:26:13-51
+42            android:exported="false" />
+42-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:27:13-37
+43        <activity
+43-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:28:9-38:20
+44            android:name="com.example.task_audioplayer.MainActivity"
+44-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:29:13-41
+45            android:exported="true"
+45-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:30:13-36
+46            android:label="@string/app_name"
+46-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:31:13-45
+47            android:theme="@style/Theme.Task_AudioPlayer" >
+47-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:32:13-58
+48            <intent-filter>
+48-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:33:13-37:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:34:17-69
+49-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:34:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:36:17-77
+51-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:36:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <service
+55-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:40:9-44:61
+56            android:name="com.example.task_audioplayer.MusicPlayerService"
+56-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:41:13-47
+57            android:enabled="true"
+57-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:42:13-35
+58            android:exported="false"
+58-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:43:13-37
+59            android:foregroundServiceType="mediaPlayback" />
+59-->C:\Users\Yogeshwar Tandulje\AndroidStudioProjects\Task_AudioPlayer\app\src\main\AndroidManifest.xml:44:13-58
+60
+61        <activity
+61-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\12bfb2c59abf6399fed913532509a39a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\12bfb2c59abf6399fed913532509a39a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\12bfb2c59abf6399fed913532509a39a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
+64        <activity
+64-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\213534f59d055222b99445a8cd76e6dc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:24:9-26:39
+65            android:name="androidx.activity.ComponentActivity"
+65-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\213534f59d055222b99445a8cd76e6dc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:25:13-63
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\213534f59d055222b99445a8cd76e6dc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:26:13-36
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.example.task_audioplayer.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\0e41f20f1b4a899e7ccbc4eab1cb04c9\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\8a268437ee48e62ccf8f3b18ac2223b4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\8a268437ee48e62ccf8f3b18ac2223b4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\8a268437ee48e62ccf8f3b18ac2223b4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Yogeshwar Tandulje\.gradle\caches\transforms-4\37a98669e0743480220eba96ad92817b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>

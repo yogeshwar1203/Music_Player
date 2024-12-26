@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#363636"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/btnSongs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_margin="2dp"
+                android:clickable="true">
+
+                <View
+                    android:id="@+id/icon_task"
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/baseline_music_note_24">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Songs"
+                    android:textSize="15dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/btnDownload"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/icon_team"
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/rounded_download_24">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Downloads"
+                    android:textSize="15dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
