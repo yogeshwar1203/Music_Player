@@ -1,1 +1,4 @@
-# A Android music player app with abackground playing and download music functionality 
+Music Player App: 
+-Built in Kotlin with MVVM
+-Utilizing Foreground Service for background playback and a media player notification.
+-Features include music download functionality and seamless user control.
